@@ -1,0 +1,70 @@
+panels:
+  panel-user:
+    perm: user
+    rows: '2'
+    title: '&9&lPlayer Panel'
+    command: pp
+    empty: BLUE_STAINED_GLASS_PANE
+    item:
+      '1':
+        material: CHEST
+        name: '&9Backpack'
+        lore: 
+          - 'Open your personal backpack.'
+          - '&7&o/bp'
+        enchanted: true
+        commands:
+          - cpc
+          - bp
+      '3':
+        material: WRITABLE_BOOK
+        name: '&9Acheivements'
+        lore: 
+          - 'View your current progress'
+        commands:
+          - cpc
+          - aach list
+      '5':
+        material: DARK_OAK_DOOR
+        name: '&9Home'
+        lore: 
+          - 'Teleport to your home location.'
+          - '&7&o/home'
+        enchanted: true
+        commands:
+          - cpc
+          - home
+      '10':
+        material: LAVA_BUCKET
+        name: '&9Disposal'
+        lore: 
+          - 'Get rid of unwanted items.'
+          - '&7&o/disposal'
+        commands:
+          - cpc
+          - disposal
+      '12':
+        material: EMERALD
+        name: '&9Emeralds'
+        lore: 
+          - 'View your emerald balance.'
+          - '&7&o/balance'
+        commands:
+          - cpc
+          - money
+      '14':
+        material: TURTLE_EGG
+        name: '&9Pet Shop'
+        lore: 
+          - 'Browse the Pet Shop.'
+          - '&7&o/petshop'
+        commands:
+          - cpc
+          - petshop
+      '17':
+        material: NETHER_STAR
+        name: '&9Exit'
+        lore: 
+          - 'Close this panel'
+        commands:
+          - cpc

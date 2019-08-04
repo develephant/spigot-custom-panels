@@ -1,0 +1,82 @@
+panels:
+  panel-pets:
+    perm: pets
+    rows: '2'
+    title: '&9&lMy Pet Panel'
+    command: petpanel
+    empty: GRAY_STAINED_GLASS_PANE
+    item:
+      '0':
+        material: IRON_HORSE_ARMOR
+        name: '&6Switch Pet'
+        lore:
+          - 'Select a new pet'
+        enchanted: true
+        commands:
+          - cpc
+          - petswitch
+      '2':
+        material: WRITABLE_BOOK
+        name: '&6Assign Pet Skills'
+        enchanted: true
+        lore:
+          - 'Change your pets skills'
+        commands:
+          - cpc
+          - pcst
+      '4':
+        material: PAINTING
+        name: '&7Change Name'
+        lore:
+          - 'Name your pet'
+        commands:
+          - cpc
+          - msg= &eUse &l/petname <name>&r&e in chat.
+      '6':
+        material: BUCKET
+        name: '&9Put Pet Away'
+        lore:
+          - 'Return to storage'
+        commands:
+          - cpc
+          - petsendaway
+      '9':
+        material: NAME_TAG
+        name: '&9Show Pet Info'
+        lore:
+          - 'Display pet details'
+        commands:
+          - cpc        
+          - petinfo
+      '11':
+        material: BOOK
+        name: '&9Show Pet Skills'
+        lore:
+          - 'View pets skills/stats'
+        commands:
+          - cpc
+          - petskill
+      '13':
+        material: ACACIA_SIGN
+        name: '&7Toggle HP Bar'
+        lore:
+          - 'Show or hide'
+          - 'pets health'
+        commands:
+          - cpc
+          - petoption healthbar
+      '15':
+        material: BONE
+        name: '&4Release Pet'
+        lore:
+          - 'Set your pet free'
+        commands:
+          - cpc
+          - petrelease
+      '17':
+        material: NETHER_STAR
+        name: 'Exit'
+        lore:
+          - 'Close this panel'
+        commands:
+          - cpc

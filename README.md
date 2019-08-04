@@ -6,6 +6,10 @@ Requires __[CommandPanels](https://www.spigotmc.org/resources/command-panels-cus
 
 A panel to access most of the MyPet options.
 
+__Requires__
+
+- MyPet
+
 ## Player
 
 A panel to access various player addons.
