@@ -2,7 +2,7 @@
 
 Requires __[CommandPanels](https://www.spigotmc.org/resources/command-panels-custom-guis.67788/)__
 
-## MyPet
+## MyPet Panel
 
 A panel to access most of the MyPet options.
 
@@ -10,7 +10,7 @@ __Requires__
 
 - MyPet
 
-## Player
+## Player Panel
 
 A panel to access various player addons.
 
