@@ -16,5 +16,9 @@ A panel to access various player addons.
 
 __Requires__
 
+- MyPet
+- AdvancedAcheivements
 - MinePacks
 - EssentialsX
+
+__You can edit the panels to remove plugin functionality you dont need.__
